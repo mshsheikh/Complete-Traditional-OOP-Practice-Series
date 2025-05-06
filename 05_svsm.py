@@ -6,6 +6,6 @@ class MathUtils:
 print(MathUtils.add(84, 86))
 print(MathUtils.add("Hello ", "World"))
 
-# (static methods)
+# (static methods with MathUtils)
 mu = MathUtils()
 print(mu.add(2, 4))
