@@ -12,5 +12,11 @@ if __name__ == "__main__":
 
     del log
 
-    # Optional
+    # Optional: Uncomment the following line to see the destructor message immediately
+    # log = None
+
+    # Optional: Uncomment the following line to force garbage collection
+    # import gc
+    # gc.collect()
+
     input("Press Enter to exit...")
